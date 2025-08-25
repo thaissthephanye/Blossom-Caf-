@@ -69,13 +69,12 @@ public class TelaInicial {
 
         // ==================== EVENTOS ====================
         btnEntrar.setOnAction(event -> {
-            System.out.println("Abrir tela de login...");
-            // new TelaLogin(stage).mostrar();
+            TelaLogin telaLogin = new TelaLogin(stage);
+            telaLogin.mostrar();
         });
 
         linkPedirSemLogin.setOnAction(event -> {
-            System.out.println("Abrir pedidos sem login...");
-            // new TelaPedidos(stage).mostrar();
+            
         });
 
         // ==================== EXECUÇÃO ====================
