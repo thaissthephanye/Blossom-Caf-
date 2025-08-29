@@ -55,8 +55,8 @@ public class TelaInicial {
         Hyperlink linkPedirSemLogin = new Hyperlink("Pedir sem logar");
         linkPedirSemLogin.setStyle("-fx-text-fill: #4C2B0B; -fx-border-color: transparent; -fx-underline: true;");
 
-        // ==================== LAYOUT ====================
-        VBox layout = new VBox(28);  // Aumentei o espaçamento
+        //  LAYOUT 
+        VBox layout = new VBox(28);  // aumentei o espaçamento
         layout.setAlignment(Pos.CENTER);
         layout.setPadding(new Insets(40));
         layout.setStyle("-fx-background-color: #EADED0;");

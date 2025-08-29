@@ -141,6 +141,12 @@ public class TelaLogin {
             mostrarAlerta("Recuperar Senha", "Em breve você poderá recuperar sua senha por aqui! 📧");
         });
 
+        // No método mostrar(), após criar os componentes:
+        linkCadastrar.setOnAction(event -> {
+            TelaCadastro telaCadastro = new TelaCadastro(stage);
+            telaCadastro.mostrar();
+        });
+
         // ==================== EXECUÇÃO ====================
         Scene scene = new Scene(layoutPrincipal, 500, 650);
         stage.setTitle("Blossom Café - Login");
